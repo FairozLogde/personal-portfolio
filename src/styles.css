@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    font-family: 'Sora';
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,36 @@
+.about-me-container{
+    display: flex;
+    justify-content: left;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.left{
+    width: 50%;
+}
+
+.left img{
+    width: 80%;
+    height: 90%;
+}
+
+.right{
+    width: 50%;
+    padding-right: 3rem;
+}
+
+.right h2{
+        font-size: 48px;
+        margin: 0.5rem 0px 0 0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.right p{
+    font-size: 16px;
+    margin: 2rem 0px 0 0;
+    color: #71717A;
+}

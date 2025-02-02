@@ -1,0 +1,15 @@
+<div class="experience-container">
+    <h2 style="color: #ffff;"><span style="font-weight: 300;">My</span> Experience</h2>
+
+    @for(experience of experienceList; track experience ){
+        <div class="experience-block">
+            <div class="header-text"><div class="inner-header"><img [src]="experience.logo">{{experience.designation}} at {{experience.company}}</div>
+                <div class="year-text">{{experience.experienceRange}}</div>
+            </div>
+            <div class="content">
+                <p>{{experience.description}}</p>
+            </div>
+        </div>
+    }
+    
+</div>

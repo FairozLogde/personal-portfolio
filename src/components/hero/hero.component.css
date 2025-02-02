@@ -1,0 +1,73 @@
+.about-me-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+.right-container{
+    align-items: flex-end;
+}
+
+.left-container{
+    align-items: flex-start;
+    font-size: 48px;
+    max-width: 50%;
+}
+
+.right-container img{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    float: right;
+    width: 70%;
+    height: 80%;
+}
+
+.bolder-text{
+    font-weight: bolder;
+}
+
+.hollow-text{
+    text-shadow: -2.5px -2.5px 0 #000, 2.5px -2.5px 0 #000,-2.5px 2.5px 0 #000, 2.5px 2.5px 0 #000; 
+    color: white;
+    font-weight: bolder;
+}
+
+.paragraph{
+    font-weight: 200;
+    color: #71717A;
+}
+
+.social-media-container{
+    margin-top: 130px;
+}
+
+.social-media{
+    display: inline-block;
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+
+.social-media img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+.social-media:hover{
+    background: black;
+}
+
+.social-media:hover img{
+    filter: invert(1);
+}

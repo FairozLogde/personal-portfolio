@@ -1,0 +1,14 @@
+<div class="skills-container">
+    <h2><span style="font-weight: 300;">My</span> Skills</h2>
+
+    <div class="inner-skill-container">
+        @for(skill of skillList; track skill.id){
+            <div class="skill">
+                <img [src]="skill.path" alt="HTML">
+                <span>{{skill.name}}</span>
+            </div>
+            
+        }
+        
+    </div>
+</div>
