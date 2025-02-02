@@ -3,6 +3,7 @@ html, body {
     font-family: 'Sora';
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 h2{
@@ -11,4 +12,10 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.hollow-text{
+    text-shadow: -2.5px -2.5px 0 #000, 2.5px -2.5px 0 #000,-2.5px 2.5px 0 #000, 2.5px 2.5px 0 #000; 
+    color: white;
+    font-weight: bolder;
 }

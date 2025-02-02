@@ -1,0 +1,26 @@
+<div class="form-container">
+    <div class="left-form">
+        <form [formGroup]="contactForm">
+            <div class="input-field">
+                <input id="full-name" type="text" formControlName="fullName" placeholder="Your Full Name">
+            </div>
+            <div class="input-field">
+                <input id="email" type="text" formControlName="email" placeholder="Your Email">
+            </div>
+            <div class="input-field">
+                <input id="website" type="text" formControlName="website" placeholder="Your Website">
+            </div>
+            <div class="input-field">
+                <textarea class="area-width" rows="8" cols="2" id="help-you" type="text" formControlName="message" placeholder="How can I help you?"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Get in Touch</button>
+        </form>
+    </div>
+    <div class="right-content">
+        <p class="header-text">Let`s <span class="hollow-text">talk</span> for <br>
+            Something special
+        </p>
+        <p class="content">I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+        <a class="email-text" href="mailto:logdefairoz9@gmail.com">logdefairoz&#64;gmail.com</a>
+    </div>
+</div>
